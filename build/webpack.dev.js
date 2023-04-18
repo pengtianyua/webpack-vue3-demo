@@ -4,7 +4,7 @@ const baseConfig = require('./webpack.base')
 module.exports = merge(baseConfig, {
 	mode: 'development',
 	devServer: {
-		port: 3000,
+		port: 8080,
 		hot: true,
 		open: true
 	},
